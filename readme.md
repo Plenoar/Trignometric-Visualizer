@@ -33,12 +33,15 @@ Caveats ? Or shortcomings ?
 So make sure to have these libraries if you want to compile the project
 
 ## Some Examples 
+### 1. A pattern which looks like a rocket blasting propelents
+![Auroro](example_images/takeoff.png)
+This is an example preset that i came across while setting up different parameters .
+It is made by using a line by definning sin -cos -sin tan for the point1 x and y , point2 x and y .
+Whats visible is only the mid point of this line .
 
-### 1. A hair or fabric like pattern
+### 2. A hair or fabric like pattern
 ![hair like pattern , maybe panties ? is a better description](example_images/fabric.png)
 
-### 2. A pattern which looks like a rocket blasting propelents
-![Auroro](example_images/takeoff.png)
 
 ### 3. Quite an interesting harmony between mid point and one end point
 ![Neurons talking](example_images/perfect_harmony.png)
