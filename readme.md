@@ -48,6 +48,22 @@ Whats visible is only the mid point of this line .
 
 Make sure to try them out , pictures dont do justice to this beautifull patterns
 
+## A little thing to keep in mind about the rendering 
+The way my application handles rendering is pretty much decided by the time step , increasing the time step will make or break patterns. 
+
+In this case the full path of the wave is not properly disclosed , when the time step gets larger and larger the trigonometric waves will start
+jumping around ,so you will get some interesting patterns when this jump happens . 
+
+Also most of my examples are dominated by line oscillators , in any case a line oscillator is a line definned by 4 independent trigonometric functions
+and you have the option to render it quite differently 
+- the mid point of the line 
+- the end point of the line 
+- the starting point of the line 
+
+Also you get the option to declare different colours for all of them .
+
+In the future maybe ill add a way to render from the mid point to the end or start point .
+
 # A Little about myself 
 It started when i found out that definning x and y position as cos and sin in a 2d plane can create a circle , i was so happy and wanted to see what else could functions of x and y create .
 
